@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+body{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+	min-height: 80vh;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background-color: royalblue;
+}
+#clockTable{
+    padding: 25px;
+    margin: 12px;
+    font-size: 155px;
+    text-align: center;
+    background: #122c7a45;
+    color: #ffffff;
+    border: 2px solid white;
+}
+.btn{
+    padding: 12px;
+    color:white;
+    font-weight: 800;
+    margin: 12px;
+    border:none;
+    background-color: rgb(63, 63, 206);
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(28, 28, 189);
+}
+
+@media only screen and (max-width: 768px) {
+    #clockTable {
+        font-size: 60px;
+    }        
+  }
